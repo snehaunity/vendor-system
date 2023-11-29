@@ -32,7 +32,7 @@ class Purchaseorder(models.Model):
 
 
 class Historical_Performance_Model(models.Model):
-    vendor=models.ForeignKey(to=Vendor,on_delete=models.CASCADE)
+    vendor=models.OneToOneField(to=Vendor,on_delete=models.CASCADE)
     date=models.DateTimeField(null=True,blank=True)
     on_time_delivery_rate=models.FloatField(blank=True,null=True)
     quality_rating_avg=models.FloatField(null=True,blank=True)
@@ -40,4 +40,4 @@ class Historical_Performance_Model(models.Model):
     fulfillment_rate=models.FloatField(null=True,blank=True)
 
     def __str__(self) -> str:
-        return self.vendor
+        return self.vendor.name
