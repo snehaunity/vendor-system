@@ -13,9 +13,10 @@ The Vendor System is a Django-based web application designed to manage vendors, 
 
 ### Prerequisites
 
-- Python 3.x
-- Django 3.x
-- APScheduler
+- Python 3.9.13
+- Django==4.2
+- djangorestframework==3.14.0
+- APScheduler==3.10.4
 
 ### Installation
 
