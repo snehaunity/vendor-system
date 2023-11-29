@@ -86,5 +86,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - The project is based on the Django framework.
 - APScheduler is used for scheduling background tasks.
-
-Feel free to customize this README to fit the specific details of your project. Ensure that users can easily understand how to set up the project, run it, and contribute if needed. Include any specific configuration steps or additional dependencies if necessary.
